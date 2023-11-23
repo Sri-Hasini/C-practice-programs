@@ -1,0 +1,11 @@
+//Add, subtract, divide, multiply the given numbers.
+#include<stdio.h>
+int main(){
+	int a,b,c,d,e,f;
+	scanf("%d%d",&a,&b);
+	c=a+b;
+	d=a-b;
+	e=a*b;
+	f=a/b;
+	printf("Sum = %d\nDifference = %d\nProduct = %d\nQuotient = %d",c,d,e,f);
+}
