@@ -1,0 +1,20 @@
+//Convert Centigrade to Fahrenheit and vice versa
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main() {
+    float s,d,b;
+    char h;
+    scanf("%f %c",&s,&h);
+    d=(s-32)*5/9;
+    b=(s*9/5)+32;
+    if(h=='F')
+    {
+        printf("%.2f C",d);
+    }
+    else{
+        printf("%.2f F",b);
+    }
+    return 0;
+}
