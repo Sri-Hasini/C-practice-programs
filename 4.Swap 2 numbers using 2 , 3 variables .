@@ -1,0 +1,21 @@
+//Swap 2 numbers using 2 , 3 variables .
+#include<stdio.h>
+int main(){
+	int a,b,c,a1,b1;
+	scanf("%d%d",&a,&b);
+	printf("Enter how many variables to use for swaping\ni) 2\nii)3\n\n");
+	scanf("%d",&c);
+	a1=a,b1=b;
+	if(c==2){
+		b1=b1+a1;
+		a1=b1-a1;
+		b1=b1-a1;
+	}
+	else
+	{
+		c=a1;
+		a1=b1;
+		b1=c;
+	}
+	printf("\nAfter swapping\n%d %d ",a1,b1);
+}
