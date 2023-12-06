@@ -1,0 +1,17 @@
+//Simple interest and compound interest 
+#include<stdio.h>
+int main()
+{
+	int i,p,t,r;
+	float CI;
+	printf("Enter principal (amount):");
+	scanf("%d",&p);
+	printf("Enter time :");
+	scanf("%d",&t);
+	printf("Enter rate :");
+	scanf("%d",&r);
+	i=p*t*r;
+	printf("Simple interest = %d\n",i);
+	CI = p*(pow((1 + r / 100), t));
+    printf("Compound Interest = %f", CI);
+}
