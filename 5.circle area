@@ -1,0 +1,13 @@
+//circle area
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a,r;
+    scanf("%d",&a);
+    r=a/2;
+    printf("%.2f",3.14*r*r);
+    return 0;
+}
