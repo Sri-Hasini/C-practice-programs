@@ -1,0 +1,18 @@
+//convert km to m and viceversa
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float a;
+    char s[2];
+    scanf("%f %s ",&a,s);
+    if(s[0]=='k'){
+        printf("%.3f m",a*1000);
+    }
+    else{
+        printf("%.3f km",a/1000);
+    }
+    return 0;
+}
