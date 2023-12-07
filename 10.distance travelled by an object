@@ -1,0 +1,14 @@
+/* Find the total distance travelled by vehicle in ‘t’ seconds is given by distance = ut + ½ at2 where ‘u’ and ‘a’ are the initial velocity (m/sec) and acceleration (m/sec2). Write C program to find the distance travelled at regular intervals of time given the values of ‘u’ and ‘a’. The program should provide the flexibility to the user to select his own time intervals and repeat the calculations for different values of ‘u’ and ‘a’.*/
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    float a,b,c;
+    scanf("%f%f%f",&a,&b,&c);
+    float d=a*c + 0.5*b*c*c;
+    printf("%.2f",d);
+    return 0;
+}
