@@ -1,0 +1,13 @@
+//Find the result of (ax+b)/(ax-b).
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float a,b,x;
+    scanf("%f%f%f",&a,&b,&x);
+    float c= (a*x + b) / (a*x - b);
+    printf("%.2f",c);
+    return 0;
+}
