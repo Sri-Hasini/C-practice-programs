@@ -1,0 +1,13 @@
+//Calculate the income tax.
+#include <stdio.h>
+int main() {
+     float a;
+     scanf("%f",&a);
+     if(a<=100000)
+         printf("%.2f",a*0.1);
+    else if(a>=100001 && a<=500000 )
+        printf("%.2f",a*0.2);
+    else
+        printf("%.2f",a*0.3);
+    return 0;
+}
